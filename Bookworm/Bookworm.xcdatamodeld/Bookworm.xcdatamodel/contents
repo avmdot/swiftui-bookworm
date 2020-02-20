@@ -8,7 +8,12 @@
         <attribute name="review" optional="YES" attributeType="String"/>
         <attribute name="title" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="Singer" representedClassName="Singer" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+    </entity>
     <elements>
         <element name="Book" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="Singer" positionX="-54" positionY="36" width="128" height="73"/>
     </elements>
 </model>
